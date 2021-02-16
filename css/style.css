@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap");
+*, *::after, *::before {
+  box-sizing: border-box; }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif; }
+
+.container {
+  max-width: 1140px;
+  margin: auto; }
+
+main {
+  background: #ff6b6b;
+  padding: 6rem 0;
+  text-align: center; }
+  main .item {
+    padding: 9%;
+    margin: 0 1rem;
+    background: #fff;
+    color: black;
+    border-right: 5px solid #576574;
+    border-radius: 14px; }
+    main .item__img {
+      width: 8rem;
+      margin: auto; }
+      main .item__img img {
+        width: 100%;
+        border-radius: 50%;
+        margin-bottom: 1.7rem; }
+    main .item__body h2 {
+      font-size: 22px;
+      text-transform: uppercase; }
+    main .item__body h3 {
+      font-size: 20;
+      margin: 0.4rem 0; }
+    main .item__body p {
+      font-size: 16px;
+      margin: 1.4rem 0;
+      color: rgba(0, 0, 0, 0.829);
+      text-align: justify; }
+    main .item__body__icon {
+      color: #ff6b6b; }
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot span {
+  background: none;
+  border: 1px solid #fff; }
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: #fff; }
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:focus {
+  outline: 0; }
